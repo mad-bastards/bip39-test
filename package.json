@@ -1,0 +1,24 @@
+{
+  "name": "bip39-test",
+  "version": "1.0.0",
+  "description": "Test vector genrator for wallet creation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mad-bastards/bip39-test.git"
+  },
+  "keywords": [
+    "bip39",
+    "test-vector",
+    "javascript"
+  ],
+  "author": "spam-me@copblock.app",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mad-bastards/bip39-test/issues"
+  },
+  "homepage": "https://github.com/mad-bastards/bip39-test#readme"
+}

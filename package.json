@@ -2,9 +2,9 @@
   "name": "bip39-test",
   "version": "1.0.0",
   "description": "Test vector genrator, based on https://iancoleman.io/bip39/",
-  "main": "src/index.js",
+  "main": "./index.js",
   "scripts": {
-    "test": "node ./src/index.js"
+    "test": "node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mad-bastards/bip39-test/issues"
   },
-  "homepage": "https://github.com/mad-bastards/bip39-test#readme"
+  "homepage": "https://github.com/mad-bastards/bip39-test#readme",
+  "dependencies": {
+    "jsdom": "^22.1.0"
+  }
 }

@@ -1,14 +1,14 @@
 {
   "name": "bip39-test",
   "version": "1.0.0",
-  "description": "Test vector genrator for wallet creation.",
-  "main": "index.js",
+  "description": "Test vector genrator, based on https://iancoleman.io/bip39/",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mad-bastards/bip39-test.git"
+    "url": "git@github.com:mad-bastards/bip39-test.git"
   },
   "keywords": [
     "bip39",
